@@ -146,7 +146,7 @@ npx hardhat deploy --network localhost
 
 3. **endAuction** - 结束拍卖
    - 参数：拍卖 ID
-   - 权限：任何地址（拍卖时间已到）
+   - 权限：仅卖家
 
 4. **setPriceFeed** - 设置价格预言机
    - 参数：代币地址、预言机地址
